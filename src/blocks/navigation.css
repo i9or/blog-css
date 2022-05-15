@@ -1,0 +1,13 @@
+.navigation {
+  /* debug */
+  background-color: #ffc;
+  /* ===== */
+  
+  grid-area: navigation;
+  border-radius: var(--border-radius);
+  padding: 0 1em;
+}
+
+.navigation__menu {
+  display: flex;
+}

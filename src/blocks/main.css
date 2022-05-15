@@ -1,0 +1,7 @@
+.main {
+  /* debug */
+  background-color: #fcf;
+  /* ===== */
+  
+  grid-area: main;
+}

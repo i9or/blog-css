@@ -1,0 +1,7 @@
+.sidebar {
+  /* debug */
+  background-color: #cff;
+  /* ===== */
+  
+  grid-area: sidebar;
+}

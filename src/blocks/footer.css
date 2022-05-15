@@ -1,0 +1,8 @@
+.footer {
+  /* debug */
+  background-color: #ccf;
+  /* ===== */
+  
+  grid-area: footer;
+  display: flex;
+}
