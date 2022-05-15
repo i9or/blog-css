@@ -2,12 +2,121 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>BlogCSS | Test Page</title>
   </head>
-  <body>
-    <div id="app"></div>
+  <body class="body-container">
+    <header class="header">
+      <div>
+      <h1>Blog Title</h1>
+      <span>Short description</span>
+      </div>
+      <div>
+        <input id="darkLightMode" type="checkbox" checked="true" />
+        <label for="darkLightMode">Dark/Light</label>
+      </div>
+    </header>
+    <nav class="navigation">
+      <span>Home</span>
+      <span>About</span>
+      <span>Now</span>
+      <span>Search goes here</span>
+    </nav>
+    <main class="main">
+      <article>
+        <span>January, 1st, 2022</span>
+        <h1>Post Title</h1>
+        <p>Ea eam labores imperdiet, apeirian democritum ei nam, doming neglegentur ad vis. Ne malorum ceteros feugait quo, ius ea liber offendit placerat, est habemus aliquyam legendos id. Eam no corpora maluisset definitiones, eam mucius malorum id. Quo ea idque commodo utroque, per ex eros etiam accumsan.</p>
+        <p>Ea eam labores <strong>imperdiet</strong>, apeirian democritum ei nam, <em>doming neglegentur</em> ad vis. Ne malorum ceteros <sup>feugait</sup> <sub>quo</sub>, ius ea liber offendit placerat, est habemus <s>aliquyam legendos id</s>. Eam no corpora maluisset definitiones, <mark>eam mucius malorum id</mark>. Quo ea idque commodo utroque, per ex eros etiam accumsan.</p>
+        <code>
+        <pre>
+const a = "Foo";
+
+const b = (param) => {
+  console.log(param);
+}
+
+b(a);
+        </pre>
+        </code>
+        <figure>
+          <blockquote cite="https://www.huxley.net/bnw/four.html">
+            <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
+          </blockquote>
+          <figcaption>—Aldous Huxley, <cite>Brave New World</cite></figcaption>
+        </figure>
+        <p>
+        <ul>
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+        </ul>
+        </p>
+        <p>
+        <ol>
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+        </ol>
+        </p>
+        <hr />
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <p>Some paragraph with acronym: <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+        <figure>
+          <img src="https://placekitten.com/320/240"
+         alt="Kitten">
+          <figcaption>A kitten</figcaption>
+        </figure>
+        <a href="#">Read more »</a>
+        <section>
+          <span>Tags:</span>
+          <ul>
+            <li>
+              <a href="#">Tag 1</a>
+            </li>
+            <li>
+              <a href="#">Tag 2</a>
+            </li>
+            <li>
+              <a href="#">Tag 3</a>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </main>
+    <aside class="sidebar">
+      <section>
+        <header>Recent posts</header>
+        <ul>
+          <li>
+            <a href="#">Post 1</a>
+          </li>
+          <li>
+            <a href="#">Post 2</a>
+          </li>
+          <li>
+            <a href="#">Post 3</a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <header>Tags</header>
+        <span>Tag 1</span>
+        <span>Tag 2</span>
+        <span>Tag 3</span>
+      </section>
+    </aside>
+    <footer class="footer">© Copyright 2022</footer>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
