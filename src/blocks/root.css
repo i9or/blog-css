@@ -1,4 +1,12 @@
 :root {
   --border-radius: 1em;
+
+  /* colors */
+  --primary-background: #efefef;
+  --primary-foreground: #333;
+
+  /* typography */
+  --header-font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --body-font-family: "Georgia", serif;
 }
 

@@ -1,0 +1,27 @@
+ul li, ol li {
+  margin-top: 0.5rem;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 2rem 0;
+  text-align: left;
+  width: 100%;
+}
+
+tr {
+  /* TODO: change color to css variable */
+  border-bottom: 1px solid lightgrey;
+}
+
+th, td {
+  padding: 0.5rem;
+}
+
+hr {
+  /* TODO: change color to css variable */
+  background: lightgrey;
+  border: 0;
+  height: 1px;
+  margin: 2rem;
+}

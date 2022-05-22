@@ -1,6 +1,8 @@
 @import '../node_modules/modern-normalize/modern-normalize.css';
 
 @import "./blocks/root.css";
+@import "./blocks/typography.css";
+@import "./blocks/elements.css";
 @import "./blocks/layout.css";
 
 @import "./blocks/header.css";
@@ -8,3 +10,5 @@
 @import "./blocks/main.css";
 @import "./blocks/sidebar.css";
 @import "./blocks/footer.css";
+
+@import "./blocks/sidebar-widget.css";
