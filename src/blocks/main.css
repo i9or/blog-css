@@ -1,6 +1,10 @@
 .main {
   /* debug */
-  background-color: #fcf;
+  background-color: white;
+  border-radius: 0.25rem;
+  border: thin solid grey;
+  box-shadow: 0 2px 5px #969696;
+  padding: 1rem;
   /* ===== */
   
   grid-area: main;

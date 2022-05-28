@@ -6,7 +6,7 @@
   --primary-foreground: #333;
 
   /* typography */
-  --header-font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  --body-font-family: "Georgia", serif;
+  --sans-font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --serif-font-family: "Georgia", serif;
 }
 
