@@ -7,13 +7,13 @@
   border-radius: 0.25rem;
   border: thin solid #cd642e;
   background: linear-gradient(to bottom, #f19f3c, #da6131);
-  box-shadow: var(--specular), 0 2px 5px #969696;
+  box-shadow: var(--specular), var(--e-shadow);
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 0.85rem;
-  color: white;
-  font-family: var(--sans-font-family);
+  color: var(--c-secondary-foreground);
+  font-family: var(--t-sans);
   text-shadow: 0 1px 0 #823e1c;
   text-decoration: none;
 }
@@ -24,6 +24,10 @@
 
 .rss-button:active {
   box-shadow: var(--specular), 0 1px 3px #969696;
+}
+
+.rss-button:visited {
+  color: var(--c-secondary-foreground);
 }
 
 .rss-button > svg {

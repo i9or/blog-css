@@ -7,7 +7,7 @@
 .sidebar-widget__header {
   background: linear-gradient(#545454, #373737) ;
   color: white;
-  font-family: var(--sans-font-family);
+  font-family: var(--t-sans);
   font-size: 1rem;
   text-shadow: 0 1px 0 black;
   padding: 0.25rem 0.75rem;
@@ -18,7 +18,7 @@
 }
 
 .sidebar-widget__content {
-  font-family: var(--sans-font-family);
+  font-family: var(--t-sans);
   margin: 0 0 0.75em;
   background-color: white;
   border-bottom-left-radius: 0.25rem;

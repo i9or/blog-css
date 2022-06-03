@@ -1,12 +1,46 @@
-:root {
-  --border-radius: 1em;
+/*
+e — stands for "element"
+c — stands for "color"
+t — stands for "typography"
+ */
 
+:root {
   /* colors */
-  --primary-background: #efefef;
-  --primary-foreground: #333;
+  --c-primary-background: white;
+  --c-secondary-background: #ededed;
+
+  --c-primary-foreground: #333;
+  --c-secondary-foreground: white;
+
+  --c-divider: lightgrey;
+
+  --c-link-normal: #0069d6;
+  --c-link-hover: #0050a3;
+  --c-link-visited: rebeccapurple;
+  --c-link-active: mediumvioletred;
+
+  --c-text-shadow: black;
+
+  --c-primary-border: black;
+  --c-secondary-border: grey;
+
+  --c-shadow: #969696;
 
   /* typography */
-  --sans-font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  --serif-font-family: "Georgia", serif;
+  --t-sans: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --t-serif: "Georgia", serif;
+
+  /* element properties */
+  --e-border-radius: 0.25rem;
+  --e-navigation-size: 3.5rem;
+  --e-shadow: 0 2px 5px var(--c-shadow);
+  --e-primary-border: thin solid var(--c-primary-border);
+  --e-secondary-border: thin solid var(--c-secondary-border);
+
+  /* TODO: find better names, as this one specific
+           to navigation and aside header components
+   */
+  --e-specular: inset 0 1px 0 #969696;
+  --e-ambient: inset 0 -1px 0 #545454;
 }
 

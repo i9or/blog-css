@@ -10,8 +10,7 @@ table {
 }
 
 tr {
-  /* TODO: change color to css variable */
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid var(--c-divider);
 }
 
 th, td {
@@ -19,8 +18,7 @@ th, td {
 }
 
 hr {
-  /* TODO: change color to css variable */
-  background: lightgrey;
+  background-color: var(--c-divider);
   border: 0;
   height: 1px;
   margin: 2rem;

@@ -1,11 +1,8 @@
 .main {
-  /* debug */
-  background-color: white;
-  border-radius: 0.25rem;
-  border: thin solid grey;
-  box-shadow: 0 2px 5px #969696;
-  padding: 1rem;
-  /* ===== */
-  
   grid-area: main;
+  background-color: var(--c-primary-background);
+  border-radius: var(--e-border-radius);
+  border: var(--e-secondary-border);
+  box-shadow: var(--e-shadow);
+  padding: 1rem;
 }

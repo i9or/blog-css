@@ -38,9 +38,10 @@
 <nav class="navigation">
   <ul class="navigation__menu">
     <li class="navigation__item navigation__item--home">
-      <a href="#">
+      <a href="/" aria-label="Home">
         <svg viewBox="0 0 100 100" fill="none"
-             xmlns="http://www.w3.org/2000/svg">
+             xmlns="http://www.w3.org/2000/svg"
+        aria-label="house icon">
           <path
             d="M 20 85 L 40 85 L 40 60 L 60 60 L 60 85 L 80 85 L 80 50 L 90 50 L 50 15 L 10 50 L 20 50 Z"
             fill="currentColor"/>
@@ -48,15 +49,15 @@
         </svg>
       </a>
     </li>
-    <li class="navigation__divider"></li>
+    <li class="navigation__divider" aria-hidden="true"></li>
     <li class="navigation__item">
       <a href="#">About</a>
     </li>
-    <li class="navigation__divider"></li>
+    <li class="navigation__divider" aria-hidden="true"></li>
     <li class="navigation__item">
       <a href="#">Now</a>
     </li>
-    <li class="navigation__divider"></li>
+    <li class="navigation__divider" aria-hidden="true"></li>
   </ul>
   <span class="navigation__search">Search goes here</span>
 </nav>
@@ -149,7 +150,7 @@ b(a);
     <header class="sidebar-widget__header">Recent posts</header>
     <ul class="sidebar-widget__content sidebar-widget__content--list">
       <li class="sidebar-widget__list-item">
-        <a href="#" title="Implementation of simple software renderer">Implementation
+        <a href="https://example.com/" tabindex="0" title="Implementation of simple software renderer">Implementation
           of simple software renderer</a>
       </li>
       <li class="sidebar-widget__list-item">

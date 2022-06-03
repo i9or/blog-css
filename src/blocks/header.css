@@ -1,7 +1,6 @@
 .header {
   /* debug */
   /*background-color: #fcc;*/
-  /* ===== */
   
   grid-area: header;
   display: flex;
