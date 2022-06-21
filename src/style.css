@@ -14,3 +14,10 @@
 @import "./blocks/sidebar-widget.css";
 @import "./blocks/rss-button.css";
 @import "./blocks/theme-button.css";
+
+/* debug */
+/** {*/
+/*  background: #000 !important;*/
+/*  color: #0f0 !important;*/
+/*  outline: solid #f00 1px !important;*/
+/*}*/

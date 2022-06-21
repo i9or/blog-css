@@ -1,8 +1,18 @@
 .main {
   grid-area: main;
   background-color: var(--c-primary-background);
-  border-radius: var(--e-border-radius);
-  border: var(--e-secondary-border);
-  box-shadow: var(--e-shadow);
   padding: 1rem;
+}
+
+.main img {
+  max-width: 100%;
+}
+
+@media (min-width: 820px) {
+  .main {
+    padding: 1rem 2.5rem;
+    border-radius: var(--e-border-radius);
+    border: var(--e-secondary-border);
+    box-shadow: var(--e-shadow);
+  }
 }

@@ -1,12 +1,12 @@
 .sidebar-widget {
-  box-shadow: 0 2px 5px #969696;
-  margin-bottom: 0.75rem;
+  box-shadow: var(--e-shadow);
+  margin-bottom: var(--e-gap-size);
   border-radius: 0.25rem;
 }
 
 .sidebar-widget__header {
   background: linear-gradient(#545454, #373737) ;
-  color: white;
+  color: var(--c-secondary-foreground);
   font-family: var(--t-sans);
   font-size: 1rem;
   text-shadow: 0 1px 0 black;
@@ -26,17 +26,16 @@
   font-size: 0.833rem;
   border: thin solid grey;
   border-top-style: none;
+  list-style: none;
 }
 
 .sidebar-widget__content--list {
   flex-direction: column;
-  list-style-type: "\00BB \0020";
   display: flex;
   padding: 0.5rem 0.75rem 0.5rem 1rem;
 }
 
 .sidebar-widget__content--tags {
-  list-style: none;
   flex-direction: row;
   flex-wrap: wrap;
   display: flex;
@@ -46,6 +45,13 @@
 .sidebar-widget__list-item {
   padding: 0;
   margin: 0 0 0.25rem;
+  position: relative;
+}
+
+.sidebar-widget__list-item::before {
+  content: "\00BB";
+  position: absolute;
+  left: -0.6rem;
 }
 
 .sidebar-widget__list-item > a {

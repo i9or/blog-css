@@ -3,7 +3,7 @@
 
   width: 2rem;
   height: 2rem;
-  padding: 0.35rem;
+  padding: 0;
   border-radius: 0.25rem;
   border: thin solid #cd642e;
   background: linear-gradient(to bottom, #f19f3c, #da6131);
@@ -20,6 +20,7 @@
 
 .rss-button:hover {
   background: linear-gradient(to bottom, #f3ae58, #df7349);
+  color: var(--c-secondary-foreground);
 }
 
 .rss-button:active {
@@ -32,4 +33,6 @@
 
 .rss-button > svg {
   filter: drop-shadow(0 1px 0 rgba(0, 0, 0, 0.4));
+  width: 1.25rem;
+  height: 1.25rem;
 }

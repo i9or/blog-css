@@ -29,8 +29,10 @@ t — stands for "typography"
   /* typography */
   --t-sans: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   --t-serif: "Georgia", serif;
+  --t-small: 0.833rem;
 
   /* element properties */
+  --e-gap-size: 0.75rem;
   --e-border-radius: 0.25rem;
   --e-navigation-size: 3.5rem;
   --e-shadow: 0 2px 5px var(--c-shadow);

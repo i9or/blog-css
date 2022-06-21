@@ -48,7 +48,7 @@ h6 {
 }
 
 small, .text-small {
-  font-size: 0.833rem;
+  font-size: var(--t-small);
 }
 
 a {

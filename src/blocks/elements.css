@@ -22,4 +22,19 @@ hr {
   border: 0;
   height: 1px;
   margin: 2rem;
+  position: relative;
+}
+
+hr::after {
+  position: absolute;
+  content: "§";
+  width: 1rem;
+  color: var(--c-divider);
+  background-color: var(--c-primary-background);
+  text-align: center;
+  left: calc(50% - 0.5rem);
+  top: calc(var(--t-small) / -2);
+  line-height: 1;
+  font-size: calc(var(--t-small));
+  font-family: var(--t-serif);
 }
