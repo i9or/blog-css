@@ -10,10 +10,10 @@
 <header class="header">
   <div class="header__title">
     <h1>Blog Title</h1>
-    <small>Short description...</small>
+    <small class="small-screen-hidden">Short description...</small>
   </div>
   <div class="header__actions">
-    <a href="#" class="rss-button" title="RSS feed">
+    <a href="#" class="rss-button small-screen-hidden" title="RSS feed">
       <svg viewBox="0 0 100 100" fill="none"
            xmlns="http://www.w3.org/2000/svg">
         <circle cx="15" cy="85" r="15" fill="currentColor"/>
@@ -23,7 +23,7 @@
               fill="currentColor"/>
       </svg>
     </a>
-    <a href="#" class="theme-button" title="Turn on dark mode">
+    <a href="#" class="theme-button small-screen-hidden" title="Turn on dark mode">
       <svg viewBox="0 0 100 100" fill="none"
            xmlns="http://www.w3.org/2000/svg">
                         <path d="M 15 60
@@ -32,9 +32,17 @@
                              Z" fill="white"/>
       </svg>
     </a>
+    <a href="#" class="hamburger-button big-screen-hidden" title="Expand navigation menu on small screens">
+      <svg viewBox="0 0 100 100" fill="none"
+           xmlns="http://www.w3.org/2000/svg">
+        <rect y="10" width="100" height="10" fill="currentColor" />
+        <rect y="45" width="100" height="10" fill="currentColor" />
+        <rect y="80" width="100" height="10" fill="currentColor" />
+      </svg>
+    </a>
   </div>
 </header>
-<nav class="navigation">
+<nav class="navigation small-screen-hidden">
   <ul class="navigation__menu">
     <li class="navigation__item navigation__item--home">
       <a href="/" aria-label="Home">
@@ -62,13 +70,15 @@
 </nav>
 <main class="main">
   <article>
-    <small>January, 1st, 2022</small>
+    <small>January, 1<sup>st</sup>, 2022</small>
     <h1>Post Title</h1>
-    <p>Ea eam labores imperdiet, apeirian democritum ei nam, doming neglegentur
-      ad vis. Ne malorum ceteros feugait quo, ius ea liber offendit placerat,
-      est habemus aliquyam legendos id. Eam no corpora maluisset definitiones,
-      eam mucius malorum id. Quo ea idque commodo utroque, per ex eros etiam
-      accumsan.</p>
+    <p>Wells Cathedral is an Anglican cathedral in Wells, Somerset, commenced
+    around 1175 on the site of a late-Roman mausoleum and an 8th-century abbey
+    church. The cathedral has been described by the architectural historian John
+    Harvey as Europe's first truly Gothic structure, lacking the Romanesque work
+    that survives in many other cathedrals. It is the seat of the bishop of Bath
+    and Wells. This photograph depicts the St Andrew's Cross arches under the
+    tower, viewed from the nave.</p>
     <hr/>
     <p>Ea eam labores <strong>imperdiet</strong>, apeirian democritum ei nam,
       <em>doming neglegentur</em> ad vis. Ne malorum ceteros <sup>feugait</sup>

@@ -3,6 +3,11 @@
   display: flex;
   justify-content: space-between;
   padding: var(--e-gap-size);
+  background: linear-gradient(#545454, #373737);
+  color: var(--c-secondary-foreground);
+  border-bottom: var(--e-primary-border);
+  box-shadow: var(--e-specular), var(--e-ambient);
+  text-shadow: 0 1px 0 var(--c-text-shadow);
 }
 
 .header__title > h1 {
@@ -12,7 +17,7 @@
 }
 
 .header__title > small {
-  display: none;
+  /* display: none; */
 }
 
 .header__actions {
@@ -23,10 +28,11 @@
 
 @media (min-width: 820px) {
   .header {
+    background: none;
+    color: var(--c-primary-foreground);
     padding: var(--e-gap-size) var(--e-gap-size) 0;
-  }
-
-  .header__title > small {
-    display: initial;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
   }
 }

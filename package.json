@@ -1,10 +1,10 @@
 {
   "name": "blog-css",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Yet another blog CSS styles",
   "main": "css/blog-css.min.css",
   "scripts": {
-    "watch": "vite",
+    "watch": "vite --host",
     "build": "postcss src/style.css -o css/blog.min.css"
   },
   "repository": {

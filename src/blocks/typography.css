@@ -12,6 +12,14 @@ body {
 
 p {
   margin-bottom: 1rem;
+  text-align: justify;
+  hyphens: auto;
+}
+
+@media (min-width: 820px) {
+  p {
+    text-align: left;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {

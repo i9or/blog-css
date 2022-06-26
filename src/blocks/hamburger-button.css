@@ -1,0 +1,35 @@
+.hamburger-button {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border-radius: 0.25rem;
+  border: var(--e-primary-border);
+  border: thin solid #222;
+  background: linear-gradient(#545454, #373737);
+  box-shadow: var(--e-specular), var(--e-ambient);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--c-secondary-foreground);
+  text-shadow: 0 1px 0 #823e1c;
+  text-decoration: none;
+}
+
+.hamburger-button:hover {
+  background: linear-gradient(to bottom, #656565, #484848);
+  color: var(--c-secondary-foreground);
+}
+
+.hamburger-button:active {
+  /* box-shadow: var(--specular), 0 1px 3px #969696; */
+}
+
+.hamburger-button:visited {
+  color: var(--c-secondary-foreground);
+}
+
+.hamburger-button > svg {
+  filter: drop-shadow(0 1px 0 rgba(0, 0, 0, 0.4));
+  width: 1.25rem;
+  height: 1.25rem;
+}
