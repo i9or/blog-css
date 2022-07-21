@@ -16,7 +16,7 @@ p {
   hyphens: auto;
 }
 
-@media (min-width: 820px) {
+@media (--m-big-screen) {
   p {
     text-align: left;
   }

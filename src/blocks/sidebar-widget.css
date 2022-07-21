@@ -19,8 +19,8 @@
 
 .sidebar-widget__content {
   font-family: var(--t-sans);
-  margin: 0 0 0.75em;
-  background-color: white;
+  margin: 0 0 0.75rem;
+  background-color: var(--c-primary-background);
   border-bottom-left-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
   font-size: 0.833rem;
@@ -63,19 +63,19 @@
 
 .sidebar-widget__tag {
   display: block;
-  margin: 0 1px 1px 0;
-  text-shadow: 0 1px 0 black;
+  margin: 0 2px 2px 0;
 }
 
 .sidebar-widget__tag > a {
   display: block;
-  /*border: thin solid black;*/
   padding: 0.1rem 0.35rem;
   text-decoration: none;
   color: white;
-  background-color: lightslategrey;
+  background-color: dimgrey;
+  text-shadow: 0 1px 0 black;
+  border-radius: var(--e-border-radius);
 }
 
 .sidebar-widget__tag > a:hover {
-  background-color: slategrey;
+  background-color: grey;
 }

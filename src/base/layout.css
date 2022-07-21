@@ -10,7 +10,7 @@
                        "footer";
 }
 
-@media (min-width: 820px) {
+@media (--m-big-screen) {
   .body-container {
     grid-gap: var(--e-gap-size);
     grid-template-columns: auto 80ch 12em auto;

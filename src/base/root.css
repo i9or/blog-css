@@ -2,14 +2,20 @@
 e — stands for "element"
 c — stands for "color"
 t — stands for "typography"
+m - stands for "media"
  */
+  
+/* media */
+@custom-media --m-small-screen (width < 1024px);
+@custom-media --m-big-screen (width >= 1024px);
 
 :root {
+
   /* colors */
-  --c-primary-background: white;
+  --c-primary-background: #fffff8;
   --c-secondary-background: #ededed;
 
-  --c-primary-foreground: #333;
+  --c-primary-foreground: #111;
   --c-secondary-foreground: white;
 
   --c-divider: lightgrey;
@@ -33,6 +39,7 @@ t — stands for "typography"
 
   /* element properties */
   --e-gap-size: 0.75rem;
+  --e-header-height: 4rem;
   --e-border-radius: 0.25rem;
   --e-navigation-size: 3.5rem;
   --e-shadow: 0 2px 5px var(--c-shadow);
@@ -45,4 +52,3 @@ t — stands for "typography"
   --e-specular: inset 0 1px 0 #969696;
   --e-ambient: inset 0 -1px 0 #545454;
 }
-
