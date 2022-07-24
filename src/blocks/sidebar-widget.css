@@ -19,7 +19,7 @@
 
 .sidebar-widget__content {
   font-family: var(--t-sans);
-  margin: 0 0 0.75rem;
+  margin: 0;
   background-color: var(--c-primary-background);
   border-bottom-left-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;

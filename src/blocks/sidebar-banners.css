@@ -1,0 +1,15 @@
+.sidebar-banners {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.sidebar-banners > img {
+  box-shadow: var(--e-shadow);
+}
+
+.sidebar-banners--firefox {
+  border-radius: 5px;
+}

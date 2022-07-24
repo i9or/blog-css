@@ -9,6 +9,7 @@
 
 @media (--m-big-screen) {
   .sidebar {
-    display: initial;
+    display: flex;
+    flex-direction: column;
   }
 }

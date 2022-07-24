@@ -18,6 +18,8 @@
 @import "./blocks/theme-button.css";
 @import "./blocks/hamburger-button.css";
 @import "./blocks/search.css";
+@import "./blocks/sidebar-banners.css";
+@import "./blocks/hit-counter.css";
 
 /* debug */
 /* * {

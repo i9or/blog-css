@@ -1,0 +1,17 @@
+.hit-counter {
+  display: flex;
+  gap: 2px;
+  font-family: monospace;
+  font-size: var(--t-small);
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.hit-counter__digit {
+  background-color: #222;
+  color: #fffff8;
+  padding: 1px 3px;
+  box-shadow: var(--e-shadow);
+}
