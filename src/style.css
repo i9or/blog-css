@@ -17,6 +17,7 @@
 @import "./blocks/rss-button.css";
 @import "./blocks/theme-button.css";
 @import "./blocks/hamburger-button.css";
+@import "./blocks/search.css";
 
 /* debug */
 /* * {
