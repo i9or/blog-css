@@ -1,21 +1,21 @@
 .rss-button {
   --specular: inset 0 1px 0 #f9d7b8, inset 0 -1px 0 #ee862b;
 
-  width: 2rem;
-  height: 2rem;
-  padding: 0;
+  align-items: center;
+  background: linear-gradient(to bottom, #f19f3c, #da6131);
   border-radius: 0.25rem;
   border: thin solid #cd642e;
-  background: linear-gradient(to bottom, #f19f3c, #da6131);
   box-shadow: var(--specular), var(--e-shadow);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 0.85rem;
   color: var(--c-secondary-foreground);
+  display: flex;
   font-family: var(--t-sans);
-  text-shadow: 0 1px 0 #823e1c;
+  font-size: 0.85rem;
+  height: 2rem;
+  justify-content: center;
+  padding: 0;
   text-decoration: none;
+  text-shadow: 0 1px 0 #823e1c;
+  width: 2rem;
 }
 
 .rss-button:hover {
@@ -33,6 +33,6 @@
 
 .rss-button > svg {
   filter: drop-shadow(0 1px 0 rgba(0, 0, 0, 0.4));
-  width: 1.25rem;
   height: 1.25rem;
+  width: 1.25rem;
 }

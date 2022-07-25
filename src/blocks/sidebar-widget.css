@@ -1,64 +1,64 @@
 .sidebar-widget {
+  border-radius: 0.25rem;
   box-shadow: var(--e-shadow);
   margin-bottom: var(--e-gap-size);
-  border-radius: 0.25rem;
 }
 
 .sidebar-widget__header {
   background: linear-gradient(#545454, #373737) ;
-  color: var(--c-secondary-foreground);
-  font-family: var(--t-sans);
-  font-size: 1rem;
-  text-shadow: 0 1px 0 black;
-  padding: 0.25rem 0.75rem;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
   border: thin solid black;
   box-shadow: inset 0 1px 0 #969696, 0 2px 5px #969696;
+  color: var(--c-secondary-foreground);
+  font-family: var(--t-sans);
+  font-size: 1rem;
+  padding: 0.25rem 0.75rem;
+  text-shadow: 0 1px 0 black;
 }
 
 .sidebar-widget__content {
-  font-family: var(--t-sans);
-  margin: 0;
   background-color: var(--c-primary-background);
   border-bottom-left-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
-  font-size: 0.833rem;
-  border: thin solid grey;
   border-top-style: none;
+  border: thin solid grey;
+  font-family: var(--t-sans);
+  font-size: 0.833rem;
   list-style: none;
+  margin: 0;
 }
 
 .sidebar-widget__content--list {
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
   padding: 0.5rem 0.75rem 0.5rem 1rem;
 }
 
 .sidebar-widget__content--tags {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  display: flex;
   padding: 0.5rem;
 }
 
 .sidebar-widget__list-item {
-  padding: 0;
   margin: 0 0 0.25rem;
+  padding: 0;
   position: relative;
 }
 
 .sidebar-widget__list-item::before {
   content: "\00BB";
-  position: absolute;
   left: -0.6rem;
+  position: absolute;
 }
 
 .sidebar-widget__list-item > a {
+  display: block;
+  overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;
-  display: block;
 }
 
 .sidebar-widget__tag {
@@ -67,13 +67,13 @@
 }
 
 .sidebar-widget__tag > a {
+  background-color: dimgrey;
+  border-radius: var(--e-border-radius);
+  color: white;
   display: block;
   padding: 0.1rem 0.35rem;
   text-decoration: none;
-  color: white;
-  background-color: dimgrey;
   text-shadow: 0 1px 0 black;
-  border-radius: var(--e-border-radius);
 }
 
 .sidebar-widget__tag > a:hover {

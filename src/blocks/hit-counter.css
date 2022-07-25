@@ -1,17 +1,17 @@
 .hit-counter {
   display: flex;
-  gap: 2px;
   font-family: monospace;
   font-size: var(--t-small);
+  gap: 2px;
   justify-content: center;
-  width: 100%;
-  margin-top: 1rem;
   margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  width: 100%;
 }
 
 .hit-counter__digit {
   background-color: #222;
+  box-shadow: var(--e-shadow);
   color: #fffff8;
   padding: 1px 3px;
-  box-shadow: var(--e-shadow);
 }

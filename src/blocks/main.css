@@ -1,6 +1,6 @@
 .main {
-  grid-area: main;
   background-color: var(--c-primary-background);
+  grid-area: main;
   padding: 1rem;
 }
 
@@ -10,9 +10,9 @@
 
 @media (--m-big-screen) {
   .main {
-    padding: 1rem 2.5rem;
     border-radius: var(--e-border-radius);
     border: var(--e-secondary-border);
     box-shadow: var(--e-shadow);
+    padding: 1rem 2.5rem;
   }
 }

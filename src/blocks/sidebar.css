@@ -3,8 +3,8 @@
   /*background-color: #cff;*/
   /* ===== */
   
-  grid-area: sidebar;
   display: none;
+  grid-area: sidebar;
 }
 
 @media (--m-big-screen) {
