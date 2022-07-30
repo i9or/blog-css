@@ -23,6 +23,10 @@
   width: 100%;
 }
 
+.search__input::placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
 .search__input:hover {
   background-color: rgba(255, 255, 255, 0.4);
 }
@@ -33,6 +37,10 @@
   box-shadow: none;
   color: var(--c-primary-foreground);
   outline: none;
+}
+
+.search__input:focus::placeholder {
+  color: rgba(0, 0, 0, 0.4);
 }
 
 @media(--m-big-screen) {

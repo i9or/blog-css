@@ -1,6 +1,6 @@
 {
   "name": "blog-css",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "description": "Yet another blog CSS styles",
   "main": "css/blog-css.min.css",
   "scripts": {

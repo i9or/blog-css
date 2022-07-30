@@ -1,11 +1,11 @@
 /* mobile screen navigation toggle */
 @media (--m-small-screen) {
-  #navigation-toggler:checked ~ .navigation {
+  #navigation-toggle:checked ~ .navigation {
     max-height: 100vh;
     transition: max-height .5s;
   }
 
-  #navigation-toggler:not(:checked) ~ .navigation {
+  #navigation-toggle:not(:checked) ~ .navigation {
     max-height: 0;
     transition: max-height .5s;
   }
