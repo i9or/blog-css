@@ -32,7 +32,6 @@
     border-top: var(--e-primary-border);
     border: var(--e-primary-border);
     box-shadow: var(--e-specular), var(--e-ambient), var(--e-shadow);
-    box-shadow: var(--e-specular), var(--e-ambient);
     flex-direction: row;
     height: var(--e-navigation-size);
     justify-content: space-between;
@@ -102,6 +101,7 @@
 
 @media (--m-big-screen) {
   .navigation__button:hover {
+    color: var(--c-secondary-foreground);
     background-color: rgb(255 255 255 / 0.1);
   }
 
