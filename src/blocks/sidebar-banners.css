@@ -8,6 +8,7 @@
 
 .sidebar-banners > img {
   box-shadow: var(--e-shadow);
+  image-rendering: crisp-edges;
 }
 
 .sidebar-banners--firefox {
