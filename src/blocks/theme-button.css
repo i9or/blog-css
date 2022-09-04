@@ -3,7 +3,7 @@
 
   background: linear-gradient(#545454, #373737);
   border-radius: 100%;
-  border: thin dotted black;
+  border: thin solid black;
   box-shadow: var(--specular), var(--e-shadow);
   color: var(--c-primary-foreground);
   height: 1.75rem;

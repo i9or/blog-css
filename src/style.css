@@ -20,6 +20,7 @@
 @import "./blocks/search.css";
 @import "./blocks/sidebar-banners.css";
 @import "./blocks/hit-counter.css";
+@import "./blocks/blockquote.css";
 
 /* debug */
 /* * {

@@ -4,6 +4,22 @@ A few BEM styles for simple responsive blog.
 
 ## Blocks
 
+### Main
+
+#### Blockquote
+
+```html
+<figure class="blockquote">
+  <blockquote cite="https://www.huxley.net/bnw/four.html">
+    <p>Words can be like X-rays, if you use them properly—they’ll go through
+      anything. You read and you’re pierced.</p>
+  </blockquote>
+  <figcaption class="blockquote__attribution">&mdash; Aldous Huxley, <a
+    href="https://www.huxley.net/bnw/four.html">Brave New World</a>
+  </figcaption>
+</figure>
+```
+
 ### Sidebar
 
 #### Widget
