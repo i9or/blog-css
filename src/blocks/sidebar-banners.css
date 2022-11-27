@@ -1,16 +1,21 @@
 .sidebar-banners {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: var(--e-gap-small-size);
   justify-content: space-between;
   margin-top: auto;
 }
 
-.sidebar-banners > img {
+.sidebar-banners a {
+  display: block;
+  line-height: 0;
+}
+
+.sidebar-banners img {
   box-shadow: var(--e-shadow);
   image-rendering: crisp-edges;
 }
 
-.sidebar-banners--firefox {
+.sidebar-banners--rounded {
   border-radius: 5px;
 }

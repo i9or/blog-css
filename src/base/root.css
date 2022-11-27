@@ -39,6 +39,7 @@ m - stands for "media"
 
   /* element properties */
   --e-gap-size: 0.75rem;
+  --e-gap-small-size: 0.5rem;
   --e-header-height: 4rem;
   --e-border-radius: 0.25rem;
   --e-navigation-size: 3.5rem;

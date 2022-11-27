@@ -21,8 +21,8 @@
   background-color: var(--c-primary-background);
   border-bottom-left-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
-  border-top-style: none;
   border: thin solid grey;
+  border-top-style: none;
   font-family: var(--t-sans);
   font-size: 0.833rem;
   list-style: none;
