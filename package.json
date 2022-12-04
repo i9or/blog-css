@@ -1,6 +1,6 @@
 {
   "name": "blog-css",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Yet another blog CSS styles",
   "main": "css/blog-css.min.css",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitstash.me:blog-css.git"
+    "url": "git@github.com:i9or/blog-css.git"
   },
   "keywords": [
     "blog",
