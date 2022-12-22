@@ -56,9 +56,6 @@
 
 .sidebar-widget__list-item > a {
   display: block;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .sidebar-widget__tag {
