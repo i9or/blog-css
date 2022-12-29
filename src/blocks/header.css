@@ -28,10 +28,20 @@
   }
 }
 
-.header__title > h1 {
+.header__title-wrapper {
+  display: flex;
+  gap: var(--e-gap-small-size);
+}
+
+.header__logo {
+  align-self: center;
+  image-rendering: pixelated;
+}
+
+.header__title {
   font-size: 180%;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 .header__actions {
@@ -39,4 +49,3 @@
   display: flex;
   gap: var(--e-gap-size);
 }
-
