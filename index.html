@@ -132,9 +132,34 @@
       </ul>
     </nav>
     <main class="main">
-      <article>
-        <small>January, 1<sup>st</sup>, 2022</small>
+      <article class="post">
+        <section class="post__navigation">
+          <a href="#" title="Older post"><small>&larr; There</small></a>
+          <a href="#" title="Newer post"><small>Here &rarr;</small></a>
+        </section>
+        <small class="post__date">
+          <img
+            src="./src/assets/calendar-4.png"
+            width="16"
+            height="16"
+            alt="Small calendar icon"
+          />
+          January 1<sup>st</sup>, 2022
+        </small>
         <h1>Post Title</h1>
+        <p>
+          Wells Cathedral is an Anglican cathedral in Wells, Somerset, commenced
+          around 1175 on the site of a late-Roman mausoleum and an 8th-century
+          abbey church. The cathedral has been described by the architectural
+          historian John Harvey as Europe's first truly Gothic structure,
+          lacking the Romanesque work that survives in many other cathedrals. It
+          is the seat of the bishop of Bath and Wells. This photograph depicts
+          the St Andrew's Cross arches under the tower, viewed from the nave.
+        </p>
+        <figure data-type="image">
+          <img alt="Kitten" src="https://placekitten.com/320/240" />
+          <figcaption>A kitten</figcaption>
+        </figure>
         <p>
           Wells Cathedral is an Anglican cathedral in Wells, Somerset, commenced
           around 1175 on the site of a late-Roman mausoleum and an 8th-century
@@ -179,6 +204,8 @@ b(a);
           </figcaption>
         </figure>
 
+        <p>Here's the list</p>
+
         <ul>
           <li>List Item</li>
           <li>List Item</li>
@@ -186,6 +213,8 @@ b(a);
           <li>List Item</li>
           <li>List Item</li>
         </ul>
+
+        <p>And here's the ordered list:</p>
 
         <ol>
           <li>List Item</li>
@@ -206,24 +235,14 @@ b(a);
           Some paragraph with acronym:
           <abbr title="HyperText Markup Language">HTML</abbr>.
         </p>
-        <figure>
-          <img alt="Kitten" src="https://placekitten.com/320/240" />
-          <figcaption>A kitten</figcaption>
-        </figure>
-        <a href="#">Read more »</a>
-        <section>
+        <br />
+        <section class="post__tags">
           <span>Tags:</span>
-          <ul>
-            <li>
-              <a href="#">Tag 1</a>
-            </li>
-            <li>
-              <a href="#">Tag 2</a>
-            </li>
-            <li>
-              <a href="#">Tag 3</a>
-            </li>
-          </ul>
+          <a href="#">Tag 1</a>
+          ,
+          <a href="#">Tag 2</a>
+          ,
+          <a href="#">Tag 3</a>
         </section>
       </article>
     </main>

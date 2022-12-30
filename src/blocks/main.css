@@ -4,10 +4,6 @@
   padding: 1rem;
 }
 
-.main img {
-  max-width: 100%;
-}
-
 @media (--m-big-screen) {
   .main {
     border-radius: var(--e-border-radius);

@@ -35,7 +35,7 @@
 
 .header__logo {
   align-self: center;
-  image-rendering: pixelated;
+  image-rendering: crisp-edges;
 }
 
 .header__title {

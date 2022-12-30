@@ -2,10 +2,11 @@
   background-color: hsl(203, 92%, 95%);
   border-left: 0.5rem solid lightskyblue;
   padding: 2rem 0;
-  margin: 0;
+  margin: 1.25rem 2rem 1.5rem;
 }
 
 .blockquote__attribution {
+  font-size: var(--t-small);
   font-style: italic;
   text-align: right;
   padding: 0 2rem;
