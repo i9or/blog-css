@@ -28,17 +28,7 @@
   }
 }
 
-.header__title-wrapper {
-  display: flex;
-  gap: var(--e-gap-small-size);
-}
-
-.header__logo {
-  align-self: center;
-  image-rendering: crisp-edges;
-}
-
-.header__title {
+.header__title > h1 {
   font-size: 180%;
   margin: 0;
   padding: 0;
