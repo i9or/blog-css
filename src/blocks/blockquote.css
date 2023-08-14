@@ -1,6 +1,7 @@
 .blockquote {
-  background-color: hsl(203, 92%, 95%);
-  border-left: 0.5rem solid lightskyblue;
+  background-color: var(--c-blockquote-background);
+  border-left: 0.5rem solid var(--c-blockquote-border);
+
   padding: 2rem 0;
   margin: 1.25rem 2rem 1.5rem;
 }

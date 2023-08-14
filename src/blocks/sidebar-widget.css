@@ -8,8 +8,8 @@
   background: linear-gradient(#545454, #373737) ;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
-  border: thin solid black;
-  box-shadow: inset 0 1px 0 #969696, 0 2px 5px #969696;
+  border: var(--e-primary-border);
+  box-shadow: var(--e-specular), var(--e-shadow);
   color: var(--c-secondary-foreground);
   font-family: var(--t-sans);
   font-size: 1rem;
@@ -21,7 +21,7 @@
   background-color: var(--c-primary-background);
   border-bottom-left-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
-  border: thin solid grey;
+  border: var(--e-primary-border);
   border-top-style: none;
   font-family: var(--t-sans);
   font-size: 0.833rem;

@@ -1,7 +1,7 @@
 .footer {
   background-color: #222;
   border-top: thin solid var(--c-primary-border);
-  box-shadow: var(--e-specular);
+  box-shadow: var(--e-specular-muted);
   color: #aaa;
   display: flex;
   font-family: var(--t-sans);

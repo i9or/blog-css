@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="system">
   <head>
     <meta charset="UTF-8" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -32,9 +32,10 @@
           </svg>
         </a>
         <a
+          id="themeButton"
           class="theme-button small-screen-hidden"
           href="#"
-          title="Turn on dark mode"
+          title="Switch dark/light mode"
         >
           <svg
             fill="none"
@@ -127,13 +128,9 @@
     </nav>
     <main class="main">
       <article class="post">
-        <section class="post__navigation">
-          <a href="#" title="Older post"><small>&larr; There</small></a>
-          <a href="#" title="Newer post"><small>Here &rarr;</small></a>
-        </section>
         <small class="post__date">
           <img
-            src="./src/assets/calendar-4.png"
+            src="/calendar-4.png"
             width="16"
             height="16"
             alt="Small calendar icon"
@@ -239,6 +236,10 @@ b(a);
           <a href="#">Tag 3</a>
         </section>
       </article>
+      <section class="post__navigation">
+        <a href="#" title="Older post"><small>&larr; There</small></a>
+        <a href="#" title="Newer post"><small>Here &rarr;</small></a>
+      </section>
     </main>
     <aside class="sidebar">
       <section class="sidebar-widget">
@@ -284,23 +285,23 @@ b(a);
         </ul>
       </section>
       <section class="sidebar-banners">
-        <img src="./src/assets/hair.gif" alt="hair" />
-        <img src="./src/assets/neovim.gif" alt="neovim" />
-        <img src="./src/assets/macos_mov.gif" alt="macos" />
-        <img src="./src/assets/linux_powered.gif" alt="linux powered" />
+        <img src="/hair.gif" alt="hair" />
+        <img src="/neovim.gif" alt="neovim" />
+        <img src="/macos_mov.gif" alt="macos" />
+        <img src="/linux_powered.gif" alt="linux powered" />
         <a href="https://wiby.me/">
-          <img src="./src/assets/wiby.gif" alt="wiby logo" />
+          <img src="/wiby.gif" alt="wiby logo" />
         </a>
-        <img src="./src/assets/opengl.png" alt="opengl" />
-        <img src="./src/assets/agplv3-88x31.gif" alt="AGPL3 license" />
-        <img src="./src/assets/anydamn.gif" alt="Any damn browser!" />
+        <img src="/opengl.png" alt="opengl" />
+        <img src="/agplv3-88x31.gif" alt="AGPL3 license" />
+        <img src="/anydamn.gif" alt="Any damn browser!" />
         <img
           class="sidebar-banners--rounded"
-          src="./src/assets/firefoxget.gif"
+          src="/firefoxget.gif"
           alt="Get Firefox!"
         />
-        <img src="./src/assets/yanknow.gif" alt="Yankovic Now!" />
-        <img src="./src/assets/button.gif" alt="Button?" />
+        <img src="/yanknow.gif" alt="Yankovic Now!" />
+        <img src="/button.gif" alt="Button?" />
         <div class="hit-counter">
           <span class="hit-counter__digit">0</span>
           <span class="hit-counter__digit">9</span>

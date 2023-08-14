@@ -87,6 +87,10 @@
   align-items: center;
 }
 
+.navigation__button:hover {
+  color: var(--c-secondary-foreground);
+}
+
 @media (--m-big-screen) {
   .navigation__button {
     font-size: 1rem;
@@ -129,8 +133,8 @@
     margin: 0;
     width: 0;
     height: 100%;
-    border-right: thin solid #858585;
-    border-left: thin solid #222;
+    border-right: thin solid var(--c-navigation-right-specular);
+    border-left: thin solid var(--c-dark-mine-shaft);
   }
 }
 
