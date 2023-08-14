@@ -15,8 +15,7 @@
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: var(--e-border-radius);
   border: thin solid var(--c-primary-border);
-  /*box-shadow: 0 1px 0 #969696;*/
-  box-shadow: 0 1px 0 var(--c-dove-gray);
+  box-shadow: 0 1px 0 var(--c-search-specular);
   color: rgba(255, 255, 255, 0.75);
   font-family: var(--t-sans);
   height: 2rem;

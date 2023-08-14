@@ -70,6 +70,7 @@ m - stands for "media"
     --c-navigation-right-specular: var(--c-gray);
     --c-blockquote-background: var(--c-malibu);
     --c-blockquote-border: var(--c-dark-maliby);
+    --c-search-specular: var(--c-dusty-gray);
 
     --e-shadow: 0 2px 5px var(--c-shadow);
     --e-specular: inset 0 1px 0 var(--c-dusty-gray);
@@ -96,6 +97,7 @@ m - stands for "media"
     --c-navigation-right-specular: var(--c-dove-gray);
     --c-blockquote-background: var(--c-pickled-bluewood);
     --c-blockquote-border: var(--c-william);
+    --c-search-specular: var(--c-dove-gray);
 
     --e-shadow: 0 0 0 var(--c-black);
     --e-specular: inset 0 1px 0 var(--c-dove-gray);
@@ -121,6 +123,7 @@ m - stands for "media"
   --c-navigation-right-specular: var(--c-gray);
   --c-blockquote-background: var(--c-malibu);
   --c-blockquote-border: var(--c-dark-maliby);
+  --c-search-specular: var(--c-dusty-gray);
 
   --e-shadow: 0 2px 5px var(--c-shadow);
   --e-specular: inset 0 1px 0 var(--c-dusty-gray);
@@ -145,6 +148,7 @@ m - stands for "media"
   --c-navigation-right-specular: var(--c-dove-gray);
   --c-blockquote-background: var(--c-pickled-bluewood);
   --c-blockquote-border: var(--c-william);
+  --c-search-specular: var(--c-dusty-gray);
 
   --e-shadow: 0 0 0 var(--c-black);
   --e-specular: inset 0 1px 0 var(--c-dove-gray);
