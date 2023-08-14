@@ -1,10 +1,8 @@
 .theme-button {
-  --specular: inset 0 1px 0 #969696, inset 0 -1px 0 #545454;
-
   background: linear-gradient(#545454, #373737);
   border-radius: 100%;
   border: thin solid black;
-  box-shadow: var(--specular), var(--e-shadow);
+  box-shadow: var(--e-specular), var(--e-ambient), var(--e-shadow);
   color: var(--c-primary-foreground);
   height: 1.75rem;
   width: 1.75rem;
