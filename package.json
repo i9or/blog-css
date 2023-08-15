@@ -1,6 +1,6 @@
 {
   "name": "blog-css",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Yet another blog CSS styles",
   "main": "css/blog-css.min.css",
   "scripts": {
@@ -26,6 +26,7 @@
     "postcss-cli": "9.1.0",
     "postcss-custom-media": "8.0.2",
     "postcss-import": "14.1.0",
+    "postcss-mixins": "9.0.4",
     "postcss-preset-env": "7.5.0",
     "prettier": "2.7.1",
     "typescript": "4.5.4",
