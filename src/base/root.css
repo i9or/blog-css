@@ -65,7 +65,7 @@ m - stands for "media"
   --c-text-shadow: var(--c-black);
   --c-primary-border: var(--c-black);
   --c-secondary-border: var(--c-gray);
-  --c-shadow: var(--c-dusty-gray);
+  --c-shadow: rgba(0, 0, 0, 35%);
   --c-navigation-right-specular: var(--c-gray);
   --c-blockquote-background: var(--c-malibu);
   --c-blockquote-border: var(--c-dark-maliby);
@@ -90,7 +90,7 @@ m - stands for "media"
   --c-text-shadow: var(--c-black);
   --c-primary-border: var(--c-black);
   --c-secondary-border: var(--c-black);
-  --c-shadow: var(--c-dusty-gray);
+  --c-shadow: var(--c-black);
   --c-navigation-right-specular: var(--c-dove-gray);
   --c-blockquote-background: var(--c-pickled-bluewood);
   --c-blockquote-border: var(--c-william);

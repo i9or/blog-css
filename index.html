@@ -31,10 +31,9 @@
             />
           </svg>
         </a>
-        <a
+        <div
           id="themeButton"
           class="theme-button small-screen-hidden"
-          href="#"
           title="Switch dark/light mode"
         >
           <svg
@@ -50,7 +49,12 @@
               fill="white"
             />
           </svg>
-        </a>
+          <ul class="theme-button__dropdown">
+            <li><a href="#">System</a></li>
+            <li><a href="#">Dark</a></li>
+            <li><a href="#">Light</a></li>
+          </ul>
+        </div>
         <label
           class="hamburger-button big-screen-hidden"
           for="navigation-toggle"
@@ -116,12 +120,11 @@
         ></li>
         <li class="navigation__item big-screen-hidden">
           <div class="navigation__button">
-            <label for="themeSelector"> Theme: </label>
-            <select id="themeSelector" name="themeSelector">
-              <option value="os">OS Default</option>
-              <option value="light">Light</option>
-              <option value="dark">Dark</option>
-            </select>
+            <ul class="mobile-theme-selector">
+              <li><a href="#">System</a></li>
+              <li><a href="#">Dark</a></li>
+              <li><a href="#">Light</a></li>
+            </ul>
           </div>
         </li>
       </ul>

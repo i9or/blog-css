@@ -2,12 +2,12 @@
 @media (--m-small-screen) {
   #navigation-toggle:checked ~ .navigation {
     max-height: 100vh;
-    transition: max-height .5s;
+    transition: max-height 0.5s;
   }
 
   #navigation-toggle:not(:checked) ~ .navigation {
     max-height: 0;
-    transition: max-height .5s;
+    transition: max-height 0.5s;
   }
 }
 
@@ -36,6 +36,7 @@
     height: var(--e-navigation-size);
     justify-content: space-between;
     position: static;
+    z-index: unset;
   }
 }
 
@@ -83,6 +84,7 @@
   width: 100%;
   height: 100%;
   padding-left: 1rem;
+  padding-right: 1rem;
   display: flex;
   align-items: center;
 }
