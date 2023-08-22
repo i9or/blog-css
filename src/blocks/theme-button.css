@@ -6,6 +6,8 @@
   color: var(--c-primary-foreground);
   height: 1.75rem;
   width: 1.75rem;
+  transition-duration: 0.5s;
+  position: relative;
 }
 
 .theme-button:hover {
@@ -17,5 +19,67 @@
 }
 
 .theme-button:active {
-  box-shadow: var(--specular), 0 1px 3px #969696;
+  box-shadow: var(--specular), 0 1px 3px var(--c-dusty-gray);
+}
+
+.theme-button__dropdown {
+  position: absolute;
+  list-style: none;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0 0;
+  border: thin solid var(--c-primary-border);
+  border-radius: var(--e-border-radius);
+  background-color: var(--c-primary-background);
+  right: -0.5rem;
+  box-shadow: var(--e-shadow);
+}
+
+.theme-button__dropdown::after {
+  content: "";
+  position: absolute;
+  height: 0.7rem;
+  width: 0.7rem;
+  border-top: thin solid var(--c-primary-border);
+  border-left: thin solid var(--c-primary-border);
+  background-color: var(--c-primary-background);
+  transform: rotate(45deg);
+  top: -0.4rem;
+  right: 0.85rem;
+}
+
+.theme-button__dropdown::before {
+  content: "";
+  position: absolute;
+  top: -2rem;
+  bottom: 0;
+  left: 3.5rem;
+  right: 0;
+}
+
+.theme-button .theme-button__dropdown {
+  visibility: hidden;
+}
+
+.theme-button:hover > .theme-button__dropdown,
+.theme-button .theme-button__dropdown:hover {
+  visibility: visible;
+}
+
+.theme-button__dropdown > li {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.theme-button__dropdown > li > a {
+  background-color: dimgrey;
+  border-radius: var(--e-border-radius);
+  color: white;
+  display: block;
+  padding: 0.1rem 0.35rem;
+  text-decoration: none;
+  text-shadow: 0 1px 0 black;
+}
+
+.theme-button__dropdown > li > a:hover {
+  background-color: grey;
 }

@@ -10,8 +10,8 @@
 }
 
 .hit-counter__digit {
-  background-color: #222;
+  background-color: var(--c-dark-mine-shaft);
   box-shadow: var(--e-shadow);
-  color: #fffff8;
+  color: var(--c-ghost-white);
   padding: 1px 3px;
 }

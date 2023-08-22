@@ -1,0 +1,26 @@
+.mobile-theme-selector {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.mobile-theme-selector > li {
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-theme-selector > li > a {
+  background-color: dimgrey;
+  border-radius: var(--e-border-radius);
+  color: white;
+  display: block;
+  padding: 0.3rem;
+  text-decoration: none;
+  text-shadow: 0 1px 0 black;
+  font-size: 1.25rem;
+  width: 9ch;
+  text-align: center;
+}
