@@ -5,7 +5,7 @@
 }
 
 .sidebar-widget__header {
-  background: linear-gradient(#545454, #373737) ;
+  background: linear-gradient(#545454, #373737);
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
   border: var(--e-primary-border);
@@ -21,7 +21,7 @@
   background-color: var(--c-primary-background);
   border-bottom-left-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
-  border: var(--e-primary-border);
+  border: var(--e-secondary-border);
   border-top-style: none;
   font-family: var(--t-sans);
   font-size: 0.833rem;
