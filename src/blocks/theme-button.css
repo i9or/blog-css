@@ -6,7 +6,6 @@
   color: var(--c-primary-foreground);
   height: 1.75rem;
   width: 1.75rem;
-  transition-duration: 0.5s;
   position: relative;
 }
 
