@@ -18,7 +18,7 @@
 .post figure[data-type="image"] > figcaption {
   font-size: var(--t-small);
   font-style: italic;
-  color: slategrey;
+  color: var(--c-primary-foreground);
 }
 
 .post__navigation {
